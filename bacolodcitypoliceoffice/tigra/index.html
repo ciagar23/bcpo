@@ -1,0 +1,47 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head>
+	<title>Free JavaScript Calendar</title>
+	<meta name="description" content="Free JavaScript popup date and time picker control (javascript calendar)" />
+	<meta name="keywords" content="free JavaScript Calendar, javascript, client side, pop, popup, timestamp, date, picker, database, control" />
+	<link rel="stylesheet" type="text/css" href="screen.css" media="all" />
+
+	<!-- European format dd-mm-yyyy -->
+	<script language="JavaScript" src="calendar1.js"></script><!-- Date only with year scrolling -->
+	<!-- American format mm/dd/yyyy -->
+	<script language="JavaScript" src="calendar2.js"></script><!-- Date only with year scrolling -->
+	<!-- mySQL format yyyy-mm-dd -->
+	<script language="JavaScript" src="calendar3.js"></script><!-- Date only with year scrolling -->
+</head>
+
+<body>
+
+<div id="rightPane">
+<h2 class="first">Calendar Sample</h2>
+
+<form name="tstest">
+<table class="compat">
+<tr>
+	<th>European Date Format<br />(dd-mm-yyyy)</th>
+	<th>American Date Format <br />(mm/dd/yyyy)</th>
+	<th>mySQL format <br />(yyyy-mm-dd)</th>
+</tr>
+<tr>
+<td bgcolor="#ffffff" valign="top">
+	Select Date (w. year scrl.):<br>
+	<input type="Text" name="input1" value="">
+	<a href="javascript:cal1.popup();"><img src="img/cal.gif" width="16" height="16" border="0" alt="Click Here to Pick up the date"></a><br>
+	Select Date (w/o year scrl.):<br>
+	
+</form>
+<script language="JavaScript">
+<!-- // create calendar object(s) just after form tag closed
+	 // specify form element as the only parameter (document.forms['formname'].elements['inputname']);
+	 // note: you can have as many calendar objects as you need for your application
+	var cal1 = new calendar1(document.forms['tstest'].elements['input1']);
+	cal1.year_scroll = true;
+	cal1.time_comp = false;
+
+//-->
+</script>
+			

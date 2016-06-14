@@ -1,0 +1,106 @@
+.suckertreemenu ul
+	{
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+	color: white;
+	}
+
+.suckertreemenu ul li 
+	{
+	position:relative;
+	float:left;
+	font-family: "Verdana";
+	font-size: 12px;
+	color: #FFFFFF;
+	display: block;
+	padding: 2px 2px 2px 4px;
+	height: 20px;
+	width: 120px;
+	text-decoration: none;
+	font-weight: bold;
+	}
+
+.suckertreemenu ul li a
+	{
+	font-family: "Verdana";
+	font-size: 13px;
+	color: #FFFFFF;
+	padding: 2px 2px 2px 2px;
+	height: 40px;
+	width: 120px;
+	text-decoration: none;
+	font-weight: bold;
+	}
+	
+.suckertreemenu ul li ul
+	{
+	left: 0;
+	position: absolute;
+	top: 1em; 
+	display: block;
+	visibility: hidden;
+	}
+
+.suckertreemenu ul li ul li
+	{
+	display: list-item;
+	float: none;
+	}
+
+	{ 
+	left: 159px; 
+	top: 0;
+	}
+
+.suckertreemenu ul li ul li a
+	{
+	display: block;
+	width: 145px;
+	color: navy;
+	text-decoration: none;
+	background-color:#D5D9DA;
+	border:thin;
+	border-color:#52819F;
+	border-style:solid;
+	color: #52819F;
+	}
+
+.suckertreemenu ul li a:hover
+	{
+	background-color: #79889A;
+	color: white;
+	}
+
+
+.suckertreemenu .mainfoldericon
+	{
+	width:10px;
+	color:#52819F;
+	}
+
+.suckertreemenu .subfoldericon
+	{
+	background: #000000 no-repeat center right;
+	}
+
+* html p#iepara
+	{ 
+	padding-top: 1em;
+	}
+	
+/* Holly Hack for IE \*/
+* html .suckertreemenu ul li 
+	{ 
+	float: left;
+	height: 10px; 
+	}
+
+* html .suckertreemenu ul li a 
+	{
+	height: 1%; 
+	}
+
+
+
+
